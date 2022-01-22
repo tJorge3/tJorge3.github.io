@@ -5,11 +5,18 @@
 }
 
 body {
-    background-color: rgb(112, 133, 150);
+    background-image: url("../image/fcqkd8sztczrqlngrkeu.jpg");
+    background-size: cover;
+    background-position: center center;
     width: 100vw;
     height: 100vh;
     font-family: 'Karla', sans-serif;
     overflow-x: hidden;
+    color: white;
+    --tw-backdrop-blur: blur(4px);
+    backdrop-filter: var(--tw-backdrop-filter);
+    -webkit-backdrop-filter: var(--tw-backdrop-filter);
+
 }
 section {
     max-width: 1140px;
@@ -112,7 +119,7 @@ section .container .social .icones a ion-icon{
 }
 
 section .container .social .icones a:nth-child(1) ion-icon {
-    color: black;
+    color: rgb(255, 255, 255);
 }
 section .container .social .icones a:nth-child(2) ion-icon {
     color: #0077B7;
