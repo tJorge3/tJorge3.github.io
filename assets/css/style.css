@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(112, 133, 150);
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Karla', sans-serif;
+    overflow-x: hidden;
+}
+section {
+    max-width: 1140px;
+    margin: 0px 40px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    margin-top: 30px;
+    max-width: 1140px;
+    max-height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section .title {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+section .image {
+    width: 230px;
+    height: 230px;
+    margin: 10px 0px -23px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section .image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 17px black;
+}
+
+@media (max-width: 720px) {
+    section .title {
+        font-size: 23px;
+    }
+    section .image {
+        width: 170px;
+        height: 170px;
+    }
+    section .image img {
+        width: 140px;
+        height: 140px;
+    }
+}
+
+section .container .text {
+    margin: 35px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+section .container .text p {
+    line-height: 20px;
+    font-weight: 600;
+}
+
+
+section .container .text h2 {
+    margin: 18px 0px;
+}
+h2 {
+    font-size: 26px;
+}
+section .container .social {
+    margin-bottom: 20px;
+}
+
+
+section .container .text ul li {
+    text-align: start;
+    overflow-x: initial;
+}
+
+section .container .social .icones {
+    width: 180px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .container .social .icones a {
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+section .container .social .icones a ion-icon{
+    font-size: 40px;
+}
+
+section .container .social .icones a:nth-child(1) ion-icon {
+    color: black;
+}
+section .container .social .icones a:nth-child(2) ion-icon {
+    color: #0077B7;
+}
+section .container .social .icones a:nth-child(3) ion-icon {
+    color: #BE3078;
+}
